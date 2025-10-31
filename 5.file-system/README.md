@@ -2,6 +2,7 @@
 # FILE SYSTEM
 🧩 File System là gì?
 
+
 **File System (hệ thống tệp tin) là cách mà hệ điều hành lưu trữ, tổ chức và quản lý dữ liệu trên ổ đĩa** (như SSD, HDD, USB, v.v.).
 
 Nói đơn giản:
@@ -45,6 +46,13 @@ console.log(data);
 
 // Thêm nội dung
 fs.appendFileSync('hello.txt', '\nChúc bạn học Node.js vui!');
+```
+```
+├── 📁 data
+│   ├── 📄 async-example.txt
+│   └── 📄 example.txt
+├── 📝 README.md
+└── 📄 index.js
 ```
 
 Bạn có thể:
